@@ -36,6 +36,7 @@
       color="#5bbad5"
     />
     <link rel="shortcut icon" href="/assets/images/yantra/logo/favicon.ico" />
+    <link rel="stylesheet" href="/app/dist/widget.css" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta
       name="msapplication-config"
@@ -120,7 +121,7 @@
                               class="tf-button-st2 btn-effect"
                               target="_blank"
                               rel="noopener noreferrer"
-                              ><span class="effect">connect wallet</span></a
+                              ><span class="effect">Connect Wallet</span></a
                             >
                             <a
                               href="https://app.uniswap.org/#/swap?use=v2&outputCurrency=0xd55231b619Ec464347d7b6eB12Cc7AE19fBbf37D"
@@ -131,6 +132,13 @@
                               <span class="boder-fade"></span>
                               <span class="effect">Buy on Uniswap</span>
                             </a>
+                          </div>
+                          <div class="wrap-btn">
+                            <iframe
+                              src="https://voltichange.net/api/widget/?chain=1&darktheme=true&tokenin=Native&tokenout=0xd55231b619Ec464347d7b6eB12Cc7AE19fBbf37D&slippage=14"
+                              frameborder="0"
+                              class="voltichange-widget"
+                            ></iframe>
                           </div>
                         </div>
                         <div class="image">
@@ -297,227 +305,229 @@
                 <p class="h8 sub-title">Why choose us?</p>
                 <h4 class="title m-b17">WHY $YANTRA?</h4>
               </div>
-            <div class="col-md-12">
-              <div
-                id="carouselExampleIndicators"
-                class="carousel slide"
-                data-ride="carousel"
-                data-interval="7000"
-              >
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="1"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="2"
-                  ></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <img
-                        class="w-25"
-                        src="/assets/images/yantra/features/burn.svg"
-                        alt=""
-                      />
-                      <p class="text-center">
-                        A true deflationary crypto asset YANTRA is rare by
-                        design. Capped at 333,333 in Max Total Supply, YANTRA
-                        tokens burn from the Max Total Supply on every
-                        transaction causing a direct impact on the price
-                        increase. In addition to the true burn mechanism, YANTRA
-                        also adds liquidity to the pool on every transaction.
-                        Along with the true burn and liquidity tax YANTRA also
-                        has a marketing wallet to continue developing the
-                        project over time.
-                      </p>
+              <div class="col-md-12">
+                <div
+                  id="carouselExampleIndicators"
+                  class="carousel slide"
+                  data-ride="carousel"
+                  data-interval="7000"
+                >
+                  <ol class="carousel-indicators">
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="0"
+                      class="active"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="1"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="2"
+                    ></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <img
+                          class="w-25"
+                          src="/assets/images/yantra/features/burn.svg"
+                          alt=""
+                        />
+                        <p class="text-center">
+                          A true deflationary crypto asset YANTRA is rare by
+                          design. Capped at 333,333 in Max Total Supply, YANTRA
+                          tokens burn from the Max Total Supply on every
+                          transaction causing a direct impact on the price
+                          increase. In addition to the true burn mechanism,
+                          YANTRA also adds liquidity to the pool on every
+                          transaction. Along with the true burn and liquidity
+                          tax YANTRA also has a marketing wallet to continue
+                          developing the project over time.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <img
+                          class="w-25"
+                          src="/assets/images/yantra/features/inflation.svg"
+                          alt=""
+                        />
+                        <p class="text-center">
+                          YANTRA Tokenomics solve two big problems in
+                          cryptocurrency. Inflation and Liquidity. In other
+                          projects, as tokens come onto market on buys and sells
+                          it increases the circulating supply. Only 333,333
+                          YANTRA will ever exist on the blockchain. When a
+                          transaction happens on YANTRA it reduces the total
+                          supply forever causing a permanent burn of the token.
+                          At the time of this writing their are only 302,899
+                          YANTRA remaining in max total supply.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <img
+                          class="w-25"
+                          src="/assets/images/yantra/features/liquidity.svg"
+                          alt=""
+                        />
+                        <p class="text-center">
+                          Another problem YANTRA solves is liquidity. Most
+                          crypto projects never recover when holders exit
+                          because they drain all the liquidity on the way out.
+                          YANTRA protects the holders on every transaction by
+                          adding liquidity to the pool, increasing the liquidity
+                          tax when holders sell.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <img
+                          class="w-25"
+                          src="/assets/images/yantra/features/stake.svg"
+                          alt=""
+                        />
+                        <p class="text-center">
+                          The YANTRA token is also equipped with the most
+                          powerful staking platform in crypto. With no lock up
+                          periods, holders can stake and unstake at any moment
+                          with a 36% APR on the staked amount. Every stake and
+                          unstake burns YANTRA directly from the max total
+                          supply as well. There&apos;s only a 1% fee to stake
+                          and 3% of the unstaked amount is burned from the max
+                          total supply of YANTRA.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <img
+                          class="w-25"
+                          src="/assets/images/yantra/features/nft.svg"
+                          alt=""
+                        />
+                        <p class="text-center">
+                          YANTRA also has a collection of beautiful sacred
+                          geometry NFTs. If any holder mints a rare NFT they are
+                          able to benefit from NFT Profit Sharing rewarding them
+                          with 1 ETH. Holding 1,000 YANTRA tokens and 1 YANTRA
+                          NFT grants holders access to the YANTRA DAO. YANTRA
+                          NFTs are limited to 500.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <img
+                          class="w-25"
+                          src="/assets/images/yantra/features/ethereum.svg"
+                          alt=""
+                        />
+                        <p class="text-center">
+                          YANTRA is currently only available on the Ethereum
+                          blockchain with plans to add pairs to USDC and BSC.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <img
+                          class="w-25"
+                          src="/assets/images/yantra/features/community.svg"
+                          alt=""
+                        />
+                        <p class="text-center">
+                          The crypto market is saturated with useless tokens
+                          that die out daily. We think $YANTRA can do better
+                          simply by using its two greatest features. A capped
+                          supply that burns from the total supply and a strong
+                          community.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <img
+                          class="w-25"
+                          src="/assets/images/yantra/features/earth.svg"
+                          alt=""
+                        />
+                        <p class="text-center">
+                          Bitcoin is the largest cryptocurrency, went up over
+                          1,000,000x, and it only has 2 features: send and
+                          receive. No staking, no dao, no nfts. Just holders.
+                          Yes you can mine Bitcoin but what does that have to do
+                          with anything besides polluting our great planet?
+                        </p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <img
+                          class="w-25"
+                          src="/assets/images/yantra/features/growth.svg"
+                          alt=""
+                        />
+                        <p class="text-center">
+                          YANTRA unique Tokenomics provides a Bitcoin-like
+                          supply along with the liquidity to support the
+                          project. Once a strong family-like community forms
+                          around YANTRA the token has no choice but to increase
+                          in value.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <img
-                        class="w-25"
-                        src="/assets/images/yantra/features/inflation.svg"
-                        alt=""
-                      />
-                      <p class="text-center">
-                        YANTRA Tokenomics solve two big problems in
-                        cryptocurrency. Inflation and Liquidity. In other
-                        projects, as tokens come onto market on buys and sells
-                        it increases the circulating supply. Only 333,333 YANTRA
-                        will ever exist on the blockchain. When a transaction
-                        happens on YANTRA it reduces the total supply forever
-                        causing a permanent burn of the token. At the time of
-                        this writing their are only 302,899 YANTRA remaining in
-                        max total supply.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <img
-                        class="w-25"
-                        src="/assets/images/yantra/features/liquidity.svg"
-                        alt=""
-                      />
-                      <p class="text-center">
-                        Another problem YANTRA solves is liquidity. Most crypto
-                        projects never recover when holders exit because they
-                        drain all the liquidity on the way out. YANTRA protects
-                        the holders on every transaction by adding liquidity to
-                        the pool, increasing the liquidity tax when holders
-                        sell.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <img
-                        class="w-25"
-                        src="/assets/images/yantra/features/stake.svg"
-                        alt=""
-                      />
-                      <p class="text-center">
-                        The YANTRA token is also equipped with the most powerful
-                        staking platform in crypto. With no lock up periods,
-                        holders can stake and unstake at any moment with a 36%
-                        APR on the staked amount. Every stake and unstake burns
-                        YANTRA directly from the max total supply as well.
-                        There&apos;s only a 1% fee to stake and 3% of the
-                        unstaked amount is burned from the max total supply of
-                        YANTRA.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <img
-                        class="w-25"
-                        src="/assets/images/yantra/features/nft.svg"
-                        alt=""
-                      />
-                      <p class="text-center">
-                        YANTRA also has a collection of beautiful sacred
-                        geometry NFTs. If any holder mints a rare NFT they are
-                        able to benefit from NFT Profit Sharing rewarding them
-                        with 1 ETH. Holding 1,000 YANTRA tokens and 1 YANTRA NFT
-                        grants holders access to the YANTRA DAO. YANTRA NFTs are
-                        limited to 500.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <img
-                        class="w-25"
-                        src="/assets/images/yantra/features/ethereum.svg"
-                        alt=""
-                      />
-                      <p class="text-center">
-                        YANTRA is currently only available on the Ethereum
-                        blockchain with plans to add pairs to USDC and BSC.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <img
-                        class="w-25"
-                        src="/assets/images/yantra/features/community.svg"
-                        alt=""
-                      />
-                      <p class="text-center">
-                        The crypto market is saturated with useless tokens that
-                        die out daily. We think $YANTRA can do better simply by
-                        using its two greatest features. A capped supply that
-                        burns from the total supply and a strong community.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <img
-                        class="w-25"
-                        src="/assets/images/yantra/features/earth.svg"
-                        alt=""
-                      />
-                      <p class="text-center">
-                        Bitcoin is the largest cryptocurrency, went up over
-                        1,000,000x, and it only has 2 features: send and
-                        receive. No staking, no dao, no nfts. Just holders. Yes
-                        you can mine Bitcoin but what does that have to do with
-                        anything besides polluting our great planet?
-                      </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <img
-                        class="w-25"
-                        src="/assets/images/yantra/features/growth.svg"
-                        alt=""
-                      />
-                      <p class="text-center">
-                        YANTRA unique Tokenomics provides a Bitcoin-like supply
-                        along with the liquidity to support the project. Once a
-                        strong family-like community forms around YANTRA the
-                        token has no choice but to increase in value.
-                      </p>
-                    </div>
-                  </div>
+                  <a
+                    class="carousel-control-prev"
+                    href="#carouselExampleIndicators"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                    class="carousel-control-next"
+                    href="#carouselExampleIndicators"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                  </a>
                 </div>
-                <a
-                  class="carousel-control-prev"
-                  href="#carouselExampleIndicators"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a
-                  class="carousel-control-next"
-                  href="#carouselExampleIndicators"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Next</span>
-                </a>
               </div>
-            </div>
-            <!-- <div
+              <!-- <div
               class="col-xl-3 col-lg-6 col-md-6 col-12"
               data-aos="fade-up"
               data-aos-delay="100"
@@ -597,8 +607,8 @@
                 </p>
               </div>
             </div> -->
-          </div>
-          <!-- <div class="row">
+            </div>
+            <!-- <div class="row">
             <div
               class="col-xl-3 col-lg-6 col-md-6 col-12"
               data-aos="fade-up"
@@ -670,6 +680,7 @@
               </div>
             </div>
           </div> -->
+          </div>
         </div>
       </section>
 

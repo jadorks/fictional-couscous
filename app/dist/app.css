@@ -154,6 +154,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .page-title .wrap-btn .tf-button,
 .page-title .wrap-btn .tf-button-st2 {
   height: 64px;
@@ -864,8 +865,9 @@
 .main .page-title {
   position: relative;
   padding: 0;
-  height: 940px;
+  height: 1180px;
   overflow: hidden;
+  background: #0c1226;
 }
 .main .page-title .container {
   max-width: 1520px;
@@ -6258,7 +6260,7 @@ img.mfp-img {
   }
 
   .main .page-title {
-    height: 700px;
+    height: 1080px;
   }
   .main .page-title .slider-st2,
 .main .page-title .slider-st3,
@@ -6287,7 +6289,7 @@ img.mfp-img {
 .main .slider-st2,
 .main .slider-st3,
 .main .page-title {
-    height: 700px;
+    height: 1080px;
   }
   .main .page-title .slider-st2,
 .main .page-title .slider-st3,

@@ -1,0 +1,13 @@
+.voltichange-widget {
+  margin-top: 48px;
+  width: 500px;
+  height: 460px;
+}
+
+@media (max-width: 505px) {
+  .voltichange-widget {
+    width: 85vw;
+    margin: 0 auto;
+    height: 590px;
+  }
+}
