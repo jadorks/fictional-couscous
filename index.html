@@ -21,13 +21,13 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/assets/images/yantra/logo/favicon-32x32.png"
+      href="/assets/images/yantra/img5.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/assets/images/yantra/logo/favicon-16x16.png"
+      href="/assets/images/yantra/img5.png"
     />
     <link rel="manifest" href="/assets/images/yantra/logo/site.webmanifest" />
     <link
@@ -35,7 +35,7 @@
       href="/assets/images/yantra/logo/safari-pinned-tab.svg"
       color="#5bbad5"
     />
-    <link rel="shortcut icon" href="/assets/images/yantra/logo/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/images/yantra/img5.png" />
     <link rel="stylesheet" href="/app/dist/widget.css" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta
@@ -59,10 +59,10 @@
             <div class="header__logo">
               <a href="index.html"
                 ><img
-                  src="assets/images/yantra/Yantra-05.png"
+                  src="assets/images/yantra/img5.png"
                   alt=""
-                  width="163px"
-                  height="40px"
+                  width="63px"
+                  height="20px"
               /></a>
             </div>
             <nav id="main-nav" class="main-nav">
@@ -115,6 +115,10 @@
                             material realms. It should also bring peace,
                             strength, and success to the user.
                           </p>
+                          <p class="sub-title">
+                            Contract Address -
+                            0x8779627a64f880920e5277d2ab67fcfeac7f4dcc
+                          </p>
                           <div class="wrap-btn">
                             <a
                               href="https://www.yantra.app/stake"
@@ -133,18 +137,12 @@
                               <span class="effect">Buy on Uniswap</span>
                             </a>
                           </div>
-                          <div class="wrap-btn">
-                            <iframe
-                              src="https://voltichange.net/api/widget/?chain=1&darktheme=true&tokenin=Native&tokenout=0xd55231b619Ec464347d7b6eB12Cc7AE19fBbf37D&slippage=14"
-                              frameborder="0"
-                              class="voltichange-widget"
-                            ></iframe>
-                          </div>
                         </div>
-                        <div class="image">
+                        <div class="image" style="text-align: center">
                           <img
-                            src="assets/images/yantra/Yantra-11.png"
+                            src="assets/images/yantra/img5.png"
                             alt=""
+                            style="width: 85%"
                           />
                         </div>
                       </div>
@@ -152,6 +150,32 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- charts -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="wrap-btn">
+                <iframe
+                  src="https://voltichange.net/api/widget/?chain=1&darktheme=true&tokenin=Native&tokenout=0xd55231b619Ec464347d7b6eB12Cc7AE19fBbf37D&slippage=14"
+                  frameborder="0"
+                  class="voltichange-widget"
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <iframe
+                id="dextools-widget"
+                title="DEXTools Trading Chart"
+                width="500"
+                height="500"
+                src="https://www.dextools.io/widgets/en/ether/pe-light/0xf9f2e999159a4dba09a5fd336a8c0e17e0eb8a8d?theme=light&chartType=2&chartResolution=30&drawingToolbars=false"
+              ></iframe>
             </div>
           </div>
         </div>
